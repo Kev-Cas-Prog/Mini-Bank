@@ -1,0 +1,66 @@
+.title{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    padding: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.body{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-image:url('Mini_Bank_App_BG.jpg');
+}
+
+.body_2{
+    background-color: white;
+    padding: 10%;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-image:url('Mini_Bank_App_BG.jpg');
+}
+
+input{
+    width: 60%;
+    height: 60px;
+    font-size: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+button{
+    padding: 20px 50px;
+    font-size: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    background-color: greenyellow;
+    color: black;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+h1{
+    background-color: white;
+    font-size: 60px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: 70px;
+    text-align: center;
+    background-color: goldenrod;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
